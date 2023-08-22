@@ -1,3 +1,147 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.section-center {
+    margin: 0 auto;
+    margin-top: 4rem;
+    width: 80vw;
+    height: 450px;
+    max-width: 800px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+  }
+
+
+
+
+
+
+
+
+
+/***************************** fonts ****************************/
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;700&family=Bellefair&display=swap');
+
+
+
+.space-title {
+    font-family: "Bellefair";
+    font-weight:lighter;
+}
+
+.sub-title {
+    font-family: 'Barlow Condensed';
+    font-weight:lighter;
+    letter-spacing: 0.2em;
+}
+
+.text {
+    font-family: 'Barlow Condensed';
+    
+}
+
+line.active {
+    border-bottom: 5px solid #ffffff;
+    margin-bottom: -5px
+}
+
+/***************************** background Images ****************************/
+.HomePageBG {
+    background-image: url("/assets/home/background-home-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.tabletBG {
+    background-image: url('/assets/home/background-home-tablet.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.mobileHomeBG {
+    background-image: url('/assets/home/background-home-mobile.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.DestionationBg {
+    background-image: url("/assets/destination/background-destination-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    max-height: 100vh;
+
+}
+
+
+.CrewBg {
+    background-image: url("/assets/crew/background-crew-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.TechnologyBg {
+    background-image: url("/assets/technology/background-technology-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    max-height: 100vh;
+
+}
+
+
+/***************************** Destionation Slider CSS ****************************/
+
+
+article {
+    position: absolute;
+    opacity: 0;
+    transition: var(--transition);
+  }
+  .activeSlide {
+    opacity: 1;
+    transform: translateX(0);
+    
+  }
+  .lastSlide {
+    transform: translateX(0%);
+  }
+  .nextSlide {
+    transform: translateX(0%);
+  }
+
+  .planets {
+    animation: transform;
+    animation: rotate-animation 50s infinite linear;
+}
+
+@keyframes rotate-animation {
+0% {
+    transform: rotate(0deg);
+}
+50% {
+    transform: rotate(180deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+
+
+/***************************** buble ****************************/
+
+.buble {
+    color: #fff;
+}
+
+
+.buble:hover {
+    background-color: #ffffff;
+    color: black;
+}
