@@ -25,7 +25,7 @@ const technology = () => {
       <Mobilenav/>
       <div className=" flex  flex-col h-full  w-screen   gap-4 ">
      
-        <div className=" flex mt-20 mb-2 mx-auto  md:mt-40 md:mx-2">
+        <div className=" flex mt-2 h-20 mb-2 mx-auto  md:mt-40 md:mx-2">
         <h1 className="  pt-16 pb-4 lg:pt-0  lg:relative md:justify-start lg:items-start justify-center items-center flex   text-white p-[0.5em] mb-6  lg:text-[1.6vw] text uppercase tracking-widest"> <span className=' text text-[#858585] px-2 tracking-widest text-2xl'>03</span> space launch 101</h1>
         </div>
         <div className=" relative xl:pt-0 md:pt-[5%] h-full overflow-hidden lg:m-10 ">
@@ -78,8 +78,8 @@ const technology = () => {
                         })}
                         </div>
                       </div>
-                      <div className="w-full  lg:h-full text-white flex items-end">
-                        <img src={technologyItem.images} alt="" className=" w-screen h-52 md:h-80 lg:h-full  lg:w-full" />
+                      <div className="w-full h-full  lg:h-full text-white flex items-end">
+                        <img src={technologyItem.images} alt="" className=" w-screen h-80 md:h-80 lg:h-full  lg:w-full" />
                       </div>
 
                     
