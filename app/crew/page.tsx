@@ -42,10 +42,10 @@ const crew = () => {
           <div className=" md:pl-[5%]  justify-center items-center lg:h-screen lg:justify-end lg:items-start block lg:flex flex-col  xl:flex-col text-left lg:pb-20  ">
                <div className=" flex justify-center lg:justify-start flex-col-reverse lg:flex-cols">
                 <div className=" z-50 cursor-pointer flex lg:absolute justify-center lg:justify-start mt-[80%] lg:mt-0  lg:pb-8 md:hidden gap-3  ">
-                      <button key={id} onClick={() => setIndex(0)} className="cursor-pointer h-3 flex w-3 rounded-full bg-[#858585]"></button>
-                      <button key={id} onClick={() => setIndex(1)} className="cursor-pointer h-3 flex w-3 rounded-full bg-[#858585]"></button>
-                      <button key={id} onClick={() => setIndex(2)} className="cursor-pointer h-3 flex w-3 rounded-full bg-[#858585]"></button>
-                      <button key={id} onClick={() => setIndex(3)} className="cursor-pointer h-3 flex w-3 rounded-full bg-[#858585]"></button>
+                      <button key={id} onClick={() => setIndex(0)} className={`cursor-pointer h-3 flex w-3 rounded-full ${index === 0 ? 'bg-white ' : ' bg-[#858585] '}`}></button>
+                      <button key={id} onClick={() => setIndex(1)} className={`cursor-pointer h-3 flex w-3 rounded-full ${index === 1 ? 'bg-white ' : ' bg-[#858585] '}`}></button>
+                      <button key={id} onClick={() => setIndex(2)} className={`cursor-pointer h-3 flex w-3 rounded-full ${index === 2 ? 'bg-white ' : ' bg-[#858585] '}`}></button>
+                      <button key={id} onClick={() => setIndex(3)} className={`cursor-pointer h-3 flex w-3 rounded-full ${index === 3 ? 'bg-white ' : ' bg-[#858585] '}`}></button>
                 </div>
                 <h1 className="  pt-16 pb-4 lg:pt-0  lg:relative md:justify-start lg:items-start justify-center items-center flex   text-white p-[0.5em] mb-6  lg:text-[1.6vw] text uppercase tracking-widest"> <span className=' text text-[#858585] tracking-widest text-3xl'>02</span> meet your crew</h1>
                </div>
@@ -58,7 +58,7 @@ const crew = () => {
                   {crew.crew.map((people:{id:number; name:string}) => {
                      const {name, id,} = people
                     return (
-                        <div key={id} onClick={() => setIndex(id)} className="   cursor-pointer h-3 flex w-3 rounded-full bg-[#858585]"></div>
+                        <div key={id} onClick={() => setIndex(id)} className={`cursor-pointer h-3 flex w-3 rounded-full bg-[#858585] ${index === id ? 'bg-white ' : ' bg-[#858585] '}`}></div>
                     )
                    })}
                 </div>
