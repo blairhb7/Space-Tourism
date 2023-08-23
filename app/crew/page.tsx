@@ -47,12 +47,12 @@ const crew = () => {
                       <button key={id} onClick={() => setIndex(2)} className={`cursor-pointer h-3 flex w-3 rounded-full ${index === 2 ? 'bg-white ' : ' bg-[#858585] '}`}></button>
                       <button key={id} onClick={() => setIndex(3)} className={`cursor-pointer h-3 flex w-3 rounded-full ${index === 3 ? 'bg-white ' : ' bg-[#858585] '}`}></button>
                 </div>
-                <h1 className="  pt-16 pb-4 lg:pt-0  lg:relative md:justify-start lg:items-start justify-center items-center flex   text-white p-[0.5em] mb-6  lg:text-[1.6vw] text uppercase tracking-widest"> <span className=' text text-[#858585] tracking-widest text-3xl'>02</span> meet your crew</h1>
+                <h1 className="  pt-10 pb-4 lg:pt-0  lg:relative md:justify-start lg:items-start justify-center items-center flex   text-white p-[0.5em] mb-6  lg:text-[1.6vw] text uppercase tracking-widest"> <span className=' text text-[#858585] tracking-widest text-3xl'>02</span> meet your crew</h1>
                </div>
                 <div className=" lg:pb-6 flex flex-col w-full text-center lg:text-left lg:block justify-center lg:justify-start  ">
                   <h2 className=" text-[#858585] uppercase text-2xl lg:pt-8 my-4 md:my-4 space-title justify-start ">{people.role}</h2>
                   <h1 className=" text-white text-[3.1vw] md:text-6xl lg:text-[3.1vw] md:pb-6 space-title uppercase ">{people.name}</h1>
-                  <p className=" text-white opacity-75 px-8  md:px-[15%] lg:px-0  lg:w-[88%] mb-[5vw] text md:text-2xl lg:text-lg leading-loose">{people.bio}</p>
+                  <p className=" text-white opacity-75 px-8 text-sm  md:px-[15%] lg:px-0  lg:w-[88%] mb-[5vw] text md:text-2xl lg:text-lg leading-loose">{people.bio}</p>
                 </div>
                 <div className="hidden md:flex justify-center gap-3 ">
                   {crew.crew.map((people:{id:number; name:string}) => {
