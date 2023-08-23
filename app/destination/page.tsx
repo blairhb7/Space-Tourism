@@ -67,8 +67,8 @@ const destination: React.FC = () => {
                     </ul>
                   <h1 className=" text-white uppercase space-title  xl:h-20 text-6xl md:text-8xl lg:text-9xl xl:text-7xl pb-3">{planets.name}</h1>
                   <p className=" text-[#D0D6F9] text-lg md:text-xl lg:text-xl xl:text-xl font-thin text-center xl:text-justify xl:w-[69%] flex-nowrap flex text px-3 md:px-0 py-5  md:py-5 xl:py-3">{planets.description}</p>
-                  <hr className='xl:w-[65%] w-[92%] border-gray-700  mt-10' />
-                  <div className="  flex flex-col md:flex-row gap-10 md:gap-52 xl:gap-20 md:pb-14 uppercase text-white">
+                  <hr className='xl:w-[65%] w-[92%] border-gray-700  my-4' />
+                  <div className="  flex flex-col md:flex-row gap-8 md:gap-52 xl:gap-20 md:pb-14 uppercase text-white">
                     <div className=" text-center ">
                       <h2 className=" text-sm lg:text-xl text text-[#D0D6F9] opacity-80"> Avg. Distance</h2>
                       <h3 className=" text text-4xl md:text-5xl lg:text-7xl xl:text-3xl">{planets.distance}</h3>
@@ -92,10 +92,3 @@ const destination: React.FC = () => {
 export default destination
 
 
-
-/* <ul className="flex gap-6 relative">
-                  <button onClick={() => setIndex(0 )} className="text-white uppercase cursor-pointer text-xl line">Moon</button>
-                  <button onClick={() => setIndex(1)} className=" text-white uppercase cursor-pointer text-xl">Mars</button>
-                  <button onClick={() => setIndex(2)} className="text-white uppercase cursor-pointer text-xl ">Europa</button>
-                  <button onClick={() => setIndex(3)} className=" text-white uppercase cursor-pointer text-xl active:border-b-2 border-white">Titan</button>
-                </ul>*/
