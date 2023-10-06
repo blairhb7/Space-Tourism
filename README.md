@@ -1,13 +1,14 @@
 
-![landing page screenshot](file:///D:/All%20Thing%20Tech/Portfolio/Final%20Portfolio/portfolio/public/space.jpg)
-
-![sunfishmenu](https://user-images.githubusercontent.com/88805312/205113878-d3e47147-8ede-47e2-9aba-85b9dcd24c3f.png)
+![landing page screenshot](https://raw.githubusercontent.com/blairhb7/portfolio-updated/main/public/space.jpg)
 
 
 <h1>ABOUT</h1>
-<h3> “Sun Fish!”</h3>
+<h3> “SPACE TOURISM!”</h3>
 <h4. The Goal</h4>
-<P> Hired by Sun Fish to create a beautiful website for Sun Fish Restaurant. Built with Next JS, Sun Fish Features Multiple pages including, a landing page, menu, classes, and slide in check out cart. Sun Fish Menu page features, a responsive layout, along with add to cart function that updates instantly as you add more items to your cart. Click on the the cart icon and a slide in check out cart will appear, along with each item you added and the ammount. A remove button was added to easily remove any item out of your cart.  </p>
+<P> The challenge is to build out this multi-page space tourism website and get it looking as close to the design as possible
+This project is a collaboration between us, Scrimba, and Kevin Powell.
+
+Frontend Mentor task me with the challenge of building a full page Mock space tourism website. The techstack I chose to complete this project included Next-JS, Tailwind, and TypeScript. The website features an interative slider between plantes, crew, location. </p>
 
 
 <h1> How it was built </h1>
@@ -24,5 +25,5 @@
 
 
 
-![sunfishclasses](https://user-images.githubusercontent.com/88805312/205114054-b62b59e8-d97f-468f-8140-9093b5bb89b5.png)
+![landing page screenshot](https://raw.githubusercontent.com/blairhb7/portfolio-updated/main/public/space.jpg)
 
