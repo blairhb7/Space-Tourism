@@ -1,5 +1,5 @@
 
-![landing page screenshot](https://user-images.githubusercontent.com/88805312/205113651-e406fe33-2c61-4925-b7ce-674477facea4.png)
+![landing page screenshot](file:///D:/All%20Thing%20Tech/Portfolio/Final%20Portfolio/portfolio/public/space.jpg)
 
 ![sunfishmenu](https://user-images.githubusercontent.com/88805312/205113878-d3e47147-8ede-47e2-9aba-85b9dcd24c3f.png)
 
